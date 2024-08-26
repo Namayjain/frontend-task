@@ -1,6 +1,6 @@
  import technology from "../../assets/Client-First - icons/business-and-trade 1.svg"
  import startup from "../../assets/Client-First - icons/Icon (2).svg"
- import economy from "../../assets/Client-First - icons/Icon.svg"
+ import economy from "../../assets/Client-First - icons/icon.svg"
  import business from "../../assets/Client-First - icons/Icon-1.svg"
 
 export default function CategorySection() {
