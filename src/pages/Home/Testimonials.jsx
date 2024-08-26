@@ -1,13 +1,13 @@
 import React from 'react';
-import arrowIcon from '../../assets/Client-First - Icons/Arrow 1.svg'; // Placeholder import for the arrow icon
-import authorImage from '../../assets/Client-First - IMAGES/Author1.svg'; // Placeholder import for author's image
+import arrowIcon from '../../assets/Client-First - Icons/Arrow 1.svg'; 
+import authorImage from '../../assets/Client-First - IMAGES/Author1.svg'; 
 
 const Testimonial = () => {
   return (
     <div className="bg-amber-50 py-16">
       <div className="max-w-6xl mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          {/* Left side - Testimonial Heading */}
+          
           <div className="bg-amber-50 p-8 rounded-lg">
             <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">TESTIMONIALS</h3>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">What people say about our blog</h2>
@@ -16,7 +16,6 @@ const Testimonial = () => {
             </p>
           </div>
 
-          {/* Right side - Testimonial Content */}
           <div className="bg-amber-50 p-8 rounded-lg flex flex-col justify-between relative">
             <p className="text-xl font-medium text-gray-900 mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
